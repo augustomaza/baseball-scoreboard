@@ -1,8 +1,13 @@
 # baseball-scoreboard
-Build your own baseball scoreboard using raspberry pi with WiFi and Johnny-Five software library
+Build your own baseball scoreboard using Raspberry Pi with WiFi and Johnny-Five software library
 
 This is based on scoreboard at https://buildyourownscoreboard.wordpress.com/
 The code here is specific to a baseball scoreboard.
+
+This scoreboard only uses the raspberry pi hardware and home made seven segment led numbers.
+The software included here is johnny-five software with changes specific to using +12V Common Anode wiring connections and using the TPIC6B595 and TPIC6A595 Shift Register chips.
+
+The browser software is found here https://drive.google.com/open?id=0B-8OfdFPNMcyeHQ1b1FYUTBPbWs
 
 1. Install Raspbian on the Raspberry Pi 3 (google to find instructions)
 
@@ -19,4 +24,4 @@ The code here is specific to a baseball scoreboard.
 7. npm install
 
 
-
+MORE COMING SOON
